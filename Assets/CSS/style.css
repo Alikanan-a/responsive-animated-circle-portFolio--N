@@ -523,7 +523,7 @@ section {
 }
 
 .home-content h1 {
-  font-size: 5.6rem;
+  font-size: 5rem;
   font-weight: 700;
   margin-bottom: .3rem;
   color: var(--title-color);
@@ -593,7 +593,7 @@ section {
 .home .profession-container .profession-box {
   position: absolute;
   top: 0;
-  right: 0;
+  /* right: 0; */
   width: 1000px;
   height: 1000px;
 
@@ -1167,12 +1167,32 @@ span {
   section {
     padding: 10rem 3% 2rem;
   }
-
-  .home.profession-container .profession-box {
+ .profession-box {
     right: -33rem;
   }
 
   .home .profession-container .overlay {
     right: -15rem;
   }
+}
+
+@media (max-width: 1001px) {
+  .home .home-content {
+    max-width: 50rem;
+  }
+  .home .portfolio-container {
+    margin-right: -50rem;
+  }
+  .profession-box{
+    right: -60rem;
+    /* background-color: #333; */
+    position: absolute;
+  }
+  .home .profession-container .overlay {
+    right: -55.5rem;
+  }
+  .home-imag img {
+    display: none;
+  }
+
 }
