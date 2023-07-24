@@ -583,8 +583,8 @@ section {
   top: 50%;
   right: 0rem;
   transform: translateY(-50%);
-  width: 1050px;
-  height: 1000px;
+  width: 1000px;
+  height: 1020px;
   /* background-color: red; */
   overflow: hidden;
   pointer-events: none;
@@ -688,9 +688,9 @@ section {
   right: 0;
   width: 0;
   height: 0;
-  border-top: 500px solid var(--main-color);
+  border-top: 510px solid var(--main-color);
   border-right: 500px solid var(--main-color);
-  border-bottom: 500px solid var(--main-color);
+  border-bottom: 510px solid var(--main-color);
   border-left: 500px solid transparent;
 
 }
