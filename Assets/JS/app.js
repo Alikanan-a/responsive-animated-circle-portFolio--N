@@ -180,3 +180,13 @@ $(function () {
   })
   console.log('hello')
 })
+
+
+
+
+let menuIcon = document.querySelector('#menu_icon i');
+let navbar = document.querySelector('.navbar');
+menuIcon.onclick = () => {
+  menuIcon.classList.toggle('bx-x');
+  navbar.classList.toggle('active');
+}
