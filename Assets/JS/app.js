@@ -186,7 +186,19 @@ $(function () {
 
 let menuIcon = document.querySelector('#menu_icon i');
 let navbar = document.querySelector('.navbar');
+let header = document.querySelector('header');
 menuIcon.onclick = () => {
   menuIcon.classList.toggle('bx-x');
   navbar.classList.toggle('active');
+  
 }
+$(function () {
+  $('.bx-menu').click(function (e) {
+    $(header).css("background-color", "var(--back-ground-color)");
+    // $(header).css("background-color", "transparent");
+    })
+  $('.bx-x').click(function (e) {
+    $(header).css("background-color", "transparent");
+    // $(header).css("background-color", "transparent");
+    })
+})

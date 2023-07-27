@@ -177,7 +177,9 @@
   --back-ground-color: hsl(var(--hue), 100%, 99%);
   --container-color: #fff;
 }
-
+.body_color-class{
+  background: var(--back-ground-color);
+}
 /*========== color buttons ==========*/
 .menu {
   position: fixed;
