@@ -700,7 +700,7 @@ section {
 .home-imag {
   position: absolute;
   bottom: 0;
-  right: 0;
+  margin-left: 100rem;
   width: 100%;
   pointer-events: none;
 }
