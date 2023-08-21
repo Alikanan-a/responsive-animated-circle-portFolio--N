@@ -20,6 +20,28 @@ window.onscroll = () => {
 let header = document.querySelector('.header');
 header.classList.toggle('sticky',window.scrollY > 100);
 };
+// /*=============== sticky navbar ===============*/
+
+let menuIcon = document.querySelector('#menu_icon i');
+let navbar = document.querySelector('.navbar');
+let header = document.querySelector('header');
+menuIcon.onclick = () => {
+  menuIcon.classList.toggle('bx-x');
+  navbar.classList.toggle('active');
+  
+}
+menuIcon.classList.remove('bx-x');
+navbar.classList.remove('active');
+// $(function () {
+//   $('.bx-menu').click(function (e) {
+//     $(header).css("background-color", "var(--back-ground-color)");
+//     // $(header).css("background-color", "transparent");
+//     })
+//   $('.bx-x').click(function (e) {
+//     $(header).css("background-color", "transparent");
+//     // $(header).css("background-color", "transparent");
+//     })
+// })
 // /*=============== DARK LIGHT THEME ===============*/
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
@@ -183,22 +205,3 @@ $(function () {
 
 
 
-
-let menuIcon = document.querySelector('#menu_icon i');
-let navbar = document.querySelector('.navbar');
-let header = document.querySelector('header');
-menuIcon.onclick = () => {
-  menuIcon.classList.toggle('bx-x');
-  navbar.classList.toggle('active');
-  
-}
-$(function () {
-  $('.bx-menu').click(function (e) {
-    $(header).css("background-color", "var(--back-ground-color)");
-    // $(header).css("background-color", "transparent");
-    })
-  $('.bx-x').click(function (e) {
-    $(header).css("background-color", "transparent");
-    // $(header).css("background-color", "transparent");
-    })
-})

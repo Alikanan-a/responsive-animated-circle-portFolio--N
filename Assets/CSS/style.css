@@ -1180,7 +1180,7 @@ span {
 
 @media (max-width: 1315px) {
   .home .profession-container {
-    top: 45rem;
+    /* top: 45rem; */
   }
   .home .profession-container .profession-box  {
     right: -20rem;
@@ -1271,5 +1271,54 @@ span {
     .navbar a::before {
       display: none;
 
+    }
+    .home {
+      padding: 0 3% 23rem;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
+    .home .home-content {
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .home .home-content h3 {
+      font-size: 2.6rem;
+    }
+    .home .home-content {
+      font-size: 5rem;
+      text-align: center;
+      justify-content: center;
+    }
+    .home .home-content .social-media a {
+      margin: 2.5rem .75rem 3rem;
+    }
+    .home .profession-container {
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+    .home .profession-container .profession-box {
+      position: fixed;
+      top: 60%;
+      left: 0;
+      border-radius: 0;
+      width: 100%;
+      /* margin: auto; */
+    }
+    .home .profession-box .profession {
+      padding: 0 13px;
+      left: auto;
+      transform-origin: 0;
+    }
+    .home .profession-container .overlay {
+      position: fixed;
+      top: 100rem;
+      left: 50%;
+      /* margin: auto; */
+      right: 0;
+      transform: rotate(90deg) translate(-50% , 50%) scaleY(3);
+      border-width: 23.9rem;
     }
 }
