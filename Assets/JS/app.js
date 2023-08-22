@@ -1,24 +1,23 @@
-
 // /*=============== sticky navbar ===============*/
 let sections = document.querySelectorAll("section");
 let navLinks = document.querySelectorAll("header nav a");
 window.onscroll = () => {
-  sections.forEach( sec => {
+  sections.forEach(sec => {
     let top = window.screenY;
     let offset = sec.offsetTop - 150;
     let height = sec.offsetHeight;
     let id = sec.getAttribute('id');
-    if(top >= offset && top < offset + height){
+    if (top >= offset && top < offset + height) {
       navLinks.forEach(links => {
         // console.log('hello')
-       links.classList.remove('active');
-       document.querySelector('header nav a[href*='+id+']').classList.add('active');
+        links.classList.remove('active');
+        document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
       });
     };
   });
-// /*=============== sticky navbar ===============*/
-let header = document.querySelector('.header');
-header.classList.toggle('sticky',window.scrollY > 100);
+  // /*=============== sticky navbar ===============*/
+  let header = document.querySelector('.header');
+  header.classList.toggle('sticky', window.scrollY > 100);
 };
 // /*=============== sticky navbar ===============*/
 
@@ -28,7 +27,7 @@ let header = document.querySelector('header');
 menuIcon.onclick = () => {
   menuIcon.classList.toggle('bx-x');
   navbar.classList.toggle('active');
-  
+
 }
 menuIcon.classList.remove('bx-x');
 navbar.classList.remove('active');
@@ -78,7 +77,7 @@ var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 50,
   loop: true,
-  grabCursor : true ,
+  grabCursor: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -97,10 +96,18 @@ ScrollReveal({
   duration: 2000,
   delay: 200
 });
-ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .testimonial-wrapper, .contact form  ', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
-ScrollReveal().reveal('.home-content h3, .home-content p, .about-content,  ', { origin: 'right' });
+ScrollReveal().reveal('.home-content, .heading', {
+  origin: 'top'
+});
+ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .testimonial-wrapper, .contact form  ', {
+  origin: 'bottom'
+});
+ScrollReveal().reveal('.home-content h1, .about-img img', {
+  origin: 'left'
+});
+ScrollReveal().reveal('.home-content h3, .home-content p, .about-content,  ', {
+  origin: 'right'
+});
 // console.log('hello')
 // <!--=============== colors ===============-->
 const blue = document.querySelector('#blue')
@@ -114,11 +121,11 @@ const gray = document.querySelector('#gray')
 const body = document.querySelector('body')
 
 $(function () {
-  $('body').mousemove(function(){
+  $('body').mousemove(function () {
     console.log('hellooooooooooooooo')
   })
   console.log('hello')
-  $(window).on('beforeunload', function(){
+  $(window).on('beforeunload', function () {
     $(window).scrollTop(0);
   });
   $('#purple').click(function (e) {
@@ -212,6 +219,3 @@ $(function () {
   })
   console.log('hello')
 })
-
-
-
