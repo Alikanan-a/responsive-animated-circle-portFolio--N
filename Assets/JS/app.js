@@ -90,7 +90,8 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
-
+// /*=============== sticky navbar ===============*/
+ScrollReveal({ reset: true });
 // console.log('hello')
 // <!--=============== colors ===============-->
 const blue = document.querySelector('#blue')
