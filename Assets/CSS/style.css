@@ -9,7 +9,7 @@
   scroll-behavior: smooth;
   font-family: sans-serif;
 }
-
+/* <!--=============== root for color  ===============--> */
 /* :root {
     --back-ground-color: #fdfdfd;
     --text-color: #333; 
@@ -182,7 +182,7 @@
   background: var(--back-ground-color);
 }
 
-/*========== color buttons ==========*/
+/* <!--=============== color button  ===============--> */
 .menu {
   position: fixed;
   transform: translate(-50%, 55%);
@@ -353,7 +353,7 @@
   background: #BFBDC1;
   cursor: pointer;
 }
-
+/* <!--=============== SET UP  ===============--> */
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -405,7 +405,7 @@ a {
   border: none;
   outline: none;
 }
-
+/* <!--=============== header  ===============--> */
 .header {
   position: fixed;
   top: 0;
@@ -470,7 +470,7 @@ a {
   background: var(--main-color);
   opacity: .7;
 }
-
+/* <!--=============== theme button  ===============--> */
 #darkMode-icon {
   font-size: 2.4rem;
   color: var(--container-color);
@@ -502,7 +502,7 @@ section {
   padding: 10rem 7% 2rem;
   transition: 530ms;
 }
-
+/* <!--=============== home page   ===============--> */
 .home {
   display: flex;
   align-items: center;
@@ -722,7 +722,7 @@ section {
   width: 100%;
   pointer-events: none;
 }
-
+/* <!--=============== about page  ===============--> */
 .about {
   display: flex;
   justify-content: space-between;
@@ -866,6 +866,7 @@ span {
     border-left: 500px solid transparent;
     z-index: -10000; 
   } */
+  /* <!--=============== Services page   ===============--> */
 .services {
   height: 1000px;
   /* min-height: auto; */
@@ -923,7 +924,7 @@ span {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
 }
-
+/* <!--=============== portfolio page   ===============--> */
 .portfolio {
   padding-bottom: 10rem;
 
@@ -1003,7 +1004,7 @@ span {
   font-size: 2rem;
   color: #333;
 }
-
+/* <!--=============== testmonial oage   ===============--> */
 .testmonial-container {
   display: flex;
   align-items: center;
@@ -1079,7 +1080,7 @@ span {
 .testimonial-box .swiper-pagination-bullet-active {
   background-color: var(--main-color);
 }
-
+/* <!--=============== contact page   ===============--> */
 .contact h2 {
   margin-bottom: 3rem;
 }
@@ -1122,7 +1123,7 @@ span {
   cursor: pointer;
   color: var(--text-color);
 }
-
+/* <!--=============== footer page   ===============--> */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -1158,7 +1159,7 @@ span {
   color: #333;
 
 }
-
+/* <!--===============  responsive 1  ===============--> */
 @media (max-width: 1580px) {
   html {
     font-size: 55%;
@@ -1249,7 +1250,7 @@ span {
     padding: 2rem 3%;
   }
 }
-
+/* <!--=============== add phone navbar  ===============--> */
 @media (max-width: 1001px) {
   #menu_icon {
     display: block;

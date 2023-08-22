@@ -72,7 +72,7 @@ themeButton.addEventListener('click', () => {
 })
 
 
-// /*=============== sticky navbar ===============*/
+// /*=============== mySwiper  ===============*/
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   spaceBetween: 50,
@@ -89,7 +89,7 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
-// /*=============== sticky navbar ===============*/
+// /*=============== ScrollReveal ===============*/
 ScrollReveal({
   // reset: true,
   distance: '80px',
@@ -109,6 +109,11 @@ ScrollReveal().reveal('.home-content h3, .home-content p, .about-content,  ', {
   origin: 'right'
 });
 // console.log('hello')
+
+
+
+
+
 // <!--=============== colors ===============-->
 const blue = document.querySelector('#blue')
 const purple = document.querySelector('#purple')
