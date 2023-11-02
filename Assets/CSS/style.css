@@ -515,7 +515,7 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  row-gap: 1rem;
+  row-gap: 2rem;
   max-width: 44rem;
 
 }
@@ -560,7 +560,6 @@ section {
 }
 
 .btn {
-
   text-decoration: none;
   display: inline-block;
   padding: 1.2rem;
@@ -783,7 +782,11 @@ section {
   font-size: 4.5rem;
   text-align: center;
 }
-
+.about-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
 .about-content h2 {
   text-align: left;
   line-height: 1.2;
@@ -972,6 +975,7 @@ span {
   flex-direction: column;
   text-align: center;
   justify-content: center;
+  row-gap: 2rem ;
   padding: 0 4rem;
   opacity: 0;
   transition: .53s ease;
